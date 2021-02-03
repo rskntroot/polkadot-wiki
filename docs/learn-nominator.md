@@ -46,6 +46,12 @@ nomination. However, the election algorithm attempts to minimize this situation,
 occur often, so you should almost always see only a single active nomination per era. See the
 [section on Phragmén optimization](learn-phragmen#optimizations) for more details.
 
+### Minimum Bonded Stake for Nominatiors
+
+There is minimum amount of polkadot you must bond and stake to be considered as a nominator.
+
+As of Februrary 2021, this minimum is 104 DOT.
+
 ### Oversubscribed Validators
 
 Validators can only pay out to a certain number of nominators per era. This is currently set to
